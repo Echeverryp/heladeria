@@ -11,6 +11,7 @@ public class ControladorUsuarios {
     private static List<PerfilUsuario> usuarios=new ArrayList<>();
 
     private ControladorUsuarios() {
+        usuarios.add(new PerfilUsuario("pablo","contraseña","Administrador"));
         usuarios.add(new PerfilUsuario("admin", "admin", "Administrador"));
     }
 
